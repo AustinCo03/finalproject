@@ -25,6 +25,7 @@ the main branch and `/docs` folder for page management
     - `Authors@R:` your identifying information
     - `URL:` and `BugReports:` fields properly set, referring to your github.com username/finalproject
     - `Depends:` and `Imports:` set properly
+- Change the README.md file in the repo so that the title is `# finalproject`
 - Install `pkgdown` package in your R
 - In the finalproject folder, run `pkgdown::build_site()`
 - Visit `https://[username].github.io/finalproject` to verify that your GitHub pages site is live.
