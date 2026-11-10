@@ -2,6 +2,8 @@
 
 ## All functions
 
+- [`cdcfiremort`](https://github.com/vjcitn/bst260project-template/reference/cdcfiremort.md)
+  : data from CDC on rates of mortality by firearm by state by year
 - [`cdcmurd`](https://github.com/vjcitn/bst260project-template/reference/cdcmurd.md)
   : data from CDC on homicide rates by state by year
 - [`gunleg`](https://github.com/vjcitn/bst260project-template/reference/gunleg.md)

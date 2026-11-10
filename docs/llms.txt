@@ -6,6 +6,8 @@ Instructions and template for projects for 2026 HSPH BST260
 
 ## All functions
 
+- [`cdcfiremort`](https://github.com/vjcitn/bst260project-template/reference/cdcfiremort.md)
+  : data from CDC on rates of mortality by firearm by state by year
 - [`cdcmurd`](https://github.com/vjcitn/bst260project-template/reference/cdcmurd.md)
   : data from CDC on homicide rates by state by year
 - [`gunleg`](https://github.com/vjcitn/bst260project-template/reference/gunleg.md)
@@ -20,3 +22,5 @@ Instructions and template for projects for 2026 HSPH BST260
 
 - [Instructions for BST260 projects,
   2026](https://github.com/vjcitn/bst260project-template/articles/instructions.md):
+- [Stubs for BST260 projects,
+  2026](https://github.com/vjcitn/bst260project-template/articles/stubs.md):

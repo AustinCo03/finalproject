@@ -51,20 +51,26 @@ datasets* encountered in the class, or approved by instructor if you are introdu
 
 ## Example datasets
 
-- The NHANES or NHANESraw data from the NHANES package
-- The CDC data on waterborne illnesses discussed in class [here](https://vjcitn.github.io/2026vjc/slides/prob/20-sep23-cards-cdc.html) under "Exploring the US CDC API".  The data are accessible via 
+- **The NHANES or NHANESraw data** from the NHANES package
+- **The CDC data on waterborne illnesses** discussed in class [here](https://vjcitn.github.io/2026vjc/slides/prob/20-sep23-cards-cdc.html) under "Exploring the US CDC API".  The data are accessible via 
 ```
 data(waterborne, package="bst260project") # once package is installed
 ```
-- The CDC data on gun homicides that we explored in problem set 3.  The data are
+- **The CDC data on homicides** that we explored in [problem set 3](https://vjcitn.github.io/2026vjc/psets2026/pset-03-various.html). The data are
 accessible via
 ```
 data(cdcmurd, package="bst260project")
 ```
-- The RAND corporation data on firearms legislation in the USA.  The data are accessible
+In addition to this dataset, another on firearm-related mortality is available in this package as
+`cdcfiremort`.
+
+- **The RAND corporation data on firearms legislation in the USA.**  The data are accessible
 via
 ```
 data(gunleg, package="bst260project")
 ```
+- **The CDC data on USA births in 2025.**  This is an advanced data engineering project.  See
+[https://github.com/vjcitn/nchsNatality](https://github.com/vjcitn/nchsNatality) for
+information
 
 For ideas about project activities, see the "stubs" vignette in this package.

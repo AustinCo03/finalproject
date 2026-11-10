@@ -36,6 +36,7 @@
   <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
   <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
 <li><a class="dropdown-item" href="../articles/instructions.html">Instructions for BST260 projects, 2026</a></li>
+    <li><a class="dropdown-item" href="../articles/stubs.html">Stubs for BST260 projects, 2026</a></li>
   </ul>
 </li>
       </ul>
@@ -83,7 +84,24 @@
 <ul>
 <li>fork this repository “https://github.com/vjcitn/bst260project-template” into your account</li>
 <li>rename the repository to “finalproject” – it should be a public repository</li>
-<li>use the GitHub IDE “Settings” for the repository to enable “Pages” and use the main branch and <code>/docs</code> folder for page management</li>
+<li>use the github.com GitHub IDE “Settings” for the repository to enable “Pages” and use the main branch and <code>/docs</code> folder for page management</li>
+<li>Change the DESCRIPTION file metadata to reflect the properties of your package
+<ul>
+<li><code>Package: finalproject</code></li>
+<li>
+<code>Authors@R:</code> your identifying information</li>
+<li>
+<code>URL:</code> and <code>BugReports:</code> fields properly set, referring to your github.com username/finalproject</li>
+<li>
+<code>Depends:</code> and <code>Imports:</code> set properly</li>
+</ul>
+</li>
+<li>Change the README.md file in the repo so that the title is <code># finalproject</code>
+</li>
+<li>Install <code>pkgdown</code> package in your R</li>
+<li>In the finalproject folder, run <code><a href="https://pkgdown.r-lib.org/reference/build_site.html" class="external-link">pkgdown::build_site()</a></code>
+</li>
+<li>Visit <code>https://[username].github.io/finalproject</code> to verify that your GitHub pages site is live.</li>
 </ul></section><section class="level2"><h3 id="proposals-accomplish-by-nov-18-2026">Proposals, accomplish by Nov 18 2026<a class="anchor" aria-label="anchor" href="#proposals-accomplish-by-nov-18-2026"></a>
 </h3>
 <ul>
@@ -106,18 +124,28 @@
 </ul></section><section class="level2"><h3 id="example-datasets">Example datasets<a class="anchor" aria-label="anchor" href="#example-datasets"></a>
 </h3>
 <ul>
-<li>The NHANES or NHANESraw data from the NHANES package</li>
-<li>The CDC data on waterborne illnesses discussed in class <a href="https://vjcitn.github.io/2026vjc/slides/prob/20-sep23-cards-cdc.html" class="external-link">here</a> under “Exploring the US CDC API”. The data are accessible via</li>
+<li>
+<strong>The NHANES or NHANESraw data</strong> from the NHANES package</li>
+<li>
+<strong>The CDC data on waterborne illnesses</strong> discussed in class <a href="https://vjcitn.github.io/2026vjc/slides/prob/20-sep23-cards-cdc.html" class="external-link">here</a> under “Exploring the US CDC API”. The data are accessible via</li>
 </ul>
 <pre><code><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">waterborne</span>, package<span class="op">=</span><span class="st">"bst260project"</span><span class="op">)</span> <span class="co"># once package is installed</span></span></code></pre>
 <ul>
-<li>The CDC data on gun homicides that we explored in problem set 3. The data are accessible via</li>
+<li>
+<strong>The CDC data on homicides</strong> that we explored in <a href="https://vjcitn.github.io/2026vjc/psets2026/pset-03-various.html" class="external-link">problem set 3</a>. The data are accessible via</li>
 </ul>
 <pre><code><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">cdcmurd</span>, package<span class="op">=</span><span class="st">"bst260project"</span><span class="op">)</span></span></code></pre>
+<p>In addition to this dataset, another on firearm-related mortality is available in this package as <code>cdcfiremort</code>.</p>
 <ul>
-<li>The RAND corporation data on firearms legislation in the USA. The data are accessible via</li>
+<li>
+<strong>The RAND corporation data on firearms legislation in the USA.</strong> The data are accessible via</li>
 </ul>
 <pre><code><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="va">gunleg</span>, package<span class="op">=</span><span class="st">"bst260project"</span><span class="op">)</span></span></code></pre>
+<ul>
+<li>
+<strong>The CDC data on USA births in 2025.</strong> This is an advanced data engineering project. See <a href="https://github.com/vjcitn/nchsNatality" class="external-link">https://github.com/vjcitn/nchsNatality</a> for information</li>
+</ul>
+<p>For ideas about project activities, see the “stubs” vignette in this package.</p>
 </section></section><script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);

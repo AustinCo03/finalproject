@@ -16,8 +16,22 @@
   “https://github.com/vjcitn/bst260project-template” into your account
 - rename the repository to “finalproject” – it should be a public
   repository
-- use the GitHub IDE “Settings” for the repository to enable “Pages” and
-  use the main branch and `/docs` folder for page management
+- use the github.com GitHub IDE “Settings” for the repository to enable
+  “Pages” and use the main branch and `/docs` folder for page management
+- Change the DESCRIPTION file metadata to reflect the properties of your
+  package
+  - `Package: finalproject`
+  - `Authors@R:` your identifying information
+  - `URL:` and `BugReports:` fields properly set, referring to your
+    github.com username/finalproject
+  - `Depends:` and `Imports:` set properly
+- Change the README.md file in the repo so that the title is
+  `# finalproject`
+- Install `pkgdown` package in your R
+- In the finalproject folder, run
+  [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html)
+- Visit `https://[username].github.io/finalproject` to verify that your
+  GitHub pages site is live.
 
 ### Proposals, accomplish by Nov 18 2026
 
@@ -41,8 +55,8 @@
 
 ### Example datasets
 
-- The NHANES or NHANESraw data from the NHANES package
-- The CDC data on waterborne illnesses discussed in class
+- **The NHANES or NHANESraw data** from the NHANES package
+- **The CDC data on waterborne illnesses** discussed in class
   [here](https://vjcitn.github.io/2026vjc/slides/prob/20-sep23-cards-cdc.html)
   under “Exploring the US CDC API”. The data are accessible via
 
@@ -50,16 +64,27 @@
 
     data(waterborne, package="bst260project") # once package is installed
 
-- The CDC data on gun homicides that we explored in problem set 3. The
-  data are accessible via
+- **The CDC data on homicides** that we explored in [problem set
+  3](https://vjcitn.github.io/2026vjc/psets2026/pset-03-various.html).
+  The data are accessible via
 
 &nbsp;
 
     data(cdcmurd, package="bst260project")
 
-- The RAND corporation data on firearms legislation in the USA. The data
-  are accessible via
+In addition to this dataset, another on firearm-related mortality is
+available in this package as `cdcfiremort`.
+
+- **The RAND corporation data on firearms legislation in the USA.** The
+  data are accessible via
 
 &nbsp;
 
     data(gunleg, package="bst260project")
+
+- **The CDC data on USA births in 2025.** This is an advanced data
+  engineering project. See <https://github.com/vjcitn/nchsNatality> for
+  information
+
+For ideas about project activities, see the “stubs” vignette in this
+package.
