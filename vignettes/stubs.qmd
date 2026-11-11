@@ -30,6 +30,44 @@ this document)
 
 # Examples
 
+In this section a few suggestions are made concerning directions that projects
+might take.  
+
+- You should be creative in your formulation of questions and you
+should use data visualization tools and statistical summaries to make your points.
+- You should write R functions that perform tasks repetitively on different
+facets of the data.
+
+## CDC food/waterborne illness data
+
+There are many avenues to explore.
+
+- Data science considerations
+    - The data are provided as a list, and there are different numbers of 
+event features recorded per event.  How can you make it a tidy data resource,
+and what are the benefits of doing so?
+    - Add value to the data by converting the fragmentary event date information
+to `Date` objects
+    - Learn about the "ifsac categorization" of disease events and explain its
+role in the enumeration and interpretation of outbreaks
+- Statistical considerations
+    - States and months are the primary coordinates for locating events in
+space and time.  Latitude and longitude can be obtained from datasets::state.center;
+region labels are available in state.region and state.division.  Form intepretable expected
+event counts, and compare to observed values, for 
+        - different types of outbreaks in different regions
+        - types of outcomes in different decades
+    - Try your hand and making statistical maps of event locations using the leaflet package
+
+## CDC Firearm Mortality and RAND Gun Legislation Database
+
+## CDC Homicide Mortality
+
+## NCHS Birth Database
+
+See the package [in development](https://vjcitn.github.io/nchsNatality)
+  
+
 ## NHANES
 
 The options here are from 2025, but the product is not a set of written documents

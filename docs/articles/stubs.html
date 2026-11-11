@@ -83,7 +83,41 @@
 <li>change the DESCRIPTION file to reflect facts about your GitHub identity and site URL</li>
 </ul></section><section class="section level2"><h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
 </h2>
-<section class="level2"><h3 id="nhanes">NHANES<a class="anchor" aria-label="anchor" href="#nhanes"></a>
+<p>In this section a few suggestions are made concerning directions that projects might take.</p>
+<ul>
+<li>You should be creative in your formulation of questions and you should use data visualization tools and statistical summaries to make your points.</li>
+<li>You should write R functions that perform tasks repetitively on different facets of the data.</li>
+</ul>
+<section class="level2"><h3 id="cdc-foodwaterborne-illness-data">CDC food/waterborne illness data<a class="anchor" aria-label="anchor" href="#cdc-foodwaterborne-illness-data"></a>
+</h3>
+<p>There are many avenues to explore.</p>
+<ul>
+<li>Data science considerations
+<ul>
+<li>The data are provided as a list, and there are different numbers of event features recorded per event. How can you make it a tidy data resource, and what are the benefits of doing so?</li>
+<li>Add value to the data by converting the fragmentary event date information to <code>Date</code> objects</li>
+<li>Learn about the “ifsac categorization” of disease events and explain its role in the enumeration and interpretation of outbreaks</li>
+</ul>
+</li>
+<li>Statistical considerations
+<ul>
+<li>States and months are the primary coordinates for locating events in space and time. Latitude and longitude can be obtained from datasets::state.center; region labels are available in state.region and state.division. Form intepretable expected event counts, and compare to observed values, for
+<ul>
+<li>different types of outbreaks in different regions</li>
+<li>types of outcomes in different decades</li>
+</ul>
+</li>
+<li>Try your hand and making statistical maps of event locations using the leaflet package</li>
+</ul>
+</li>
+</ul></section><section class="level2"><h3 id="cdc-firearm-mortality-and-rand-gun-legislation-database">CDC Firearm Mortality and RAND Gun Legislation Database<a class="anchor" aria-label="anchor" href="#cdc-firearm-mortality-and-rand-gun-legislation-database"></a>
+</h3>
+</section><section class="level2"><h3 id="cdc-homicide-mortality">CDC Homicide Mortality<a class="anchor" aria-label="anchor" href="#cdc-homicide-mortality"></a>
+</h3>
+</section><section class="level2"><h3 id="nchs-birth-database">NCHS Birth Database<a class="anchor" aria-label="anchor" href="#nchs-birth-database"></a>
+</h3>
+<p>See the package <a href="https://vjcitn.github.io/nchsNatality" class="external-link">in development</a></p>
+</section><section class="level2"><h3 id="nhanes">NHANES<a class="anchor" aria-label="anchor" href="#nhanes"></a>
 </h3>
 <p>The options here are from 2025, but the product is not a set of written documents but a working web site. The content for this dataset can address any of these options:</p>
 <section class="level3"><h4 id="option-1-age-specific-health-analysis">Option 1: Age-Specific Health Analysis<a class="anchor" aria-label="anchor" href="#option-1-age-specific-health-analysis"></a>
