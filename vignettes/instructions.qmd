@@ -69,7 +69,8 @@ via
 ```
 data(gunleg, package="bst260project")
 ```
-- **The CDC data on USA births in 2025.**  This is an advanced data engineering project.  See
+- **The CDC data on USA births in 2025.**  This is an advanced data engineering plus
+analysis project.  See
 [https://github.com/vjcitn/nchsNatality](https://github.com/vjcitn/nchsNatality) for
 information
 
