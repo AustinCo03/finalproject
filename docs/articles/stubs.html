@@ -81,6 +81,20 @@
 <li>make the repository public</li>
 <li>set the Pages configuration to publish from /docs on main branch (see images at the bottom of this document)</li>
 <li>change the DESCRIPTION file to reflect facts about your GitHub identity and site URL</li>
+</ul></section><section class="section level2"><h2 id="general-principles">General principles<a class="anchor" aria-label="anchor" href="#general-principles"></a>
+</h2>
+<ul>
+<li>
+<p>You must write a project_plan.qmd that includes</p>
+<ul>
+<li><p>A one-sentence research question, naming one exposure (or a small cluster of related exposures) and one outcome. “How does maternal smoking relate to birth weight?” for example</p></li>
+<li><p>Specification of unit of analysis and population.</p></li>
+<li><p>Definition of exposure variable(s) and how you’ll code them, including how you’ll handle missing responses</p></li>
+<li><p>Specification of outcome variable and whether it’s continuous or categorical</p></li>
+<li><p>Specification of confounders you’ll adjust for, chosen from subject-matter reasoning before looking at the data</p></li>
+</ul>
+</li>
+<li><p>Your project text will occupy the README.md of your package repository and quarto vignette documents.</p></li>
 </ul></section><section class="section level2"><h2 id="examples">Examples<a class="anchor" aria-label="anchor" href="#examples"></a>
 </h2>
 <p>In this section a few suggestions are made concerning directions that projects might take.</p>
@@ -107,16 +121,25 @@
 <li>types of outcomes in different decades</li>
 </ul>
 </li>
-<li>Try your hand and making statistical maps of event locations using the leaflet package</li>
+<li>Try your hand at making statistical maps of event locations using the leaflet package</li>
 </ul>
 </li>
 </ul></section><section class="level2"><h3 id="cdc-firearm-mortality-and-rand-gun-legislation-database">CDC Firearm Mortality and RAND Gun Legislation Database<a class="anchor" aria-label="anchor" href="#cdc-firearm-mortality-and-rand-gun-legislation-database"></a>
 </h3>
+<p>We have worked with the RAND database in an in-class project – students were assigned states and contributed to the quarto document at https://github.com/vjcitn/gunleg. Projects using this database should investigate methods of summarizing changes in legislation over time and evaluating hypotheses on the effect of legislative actions on risk of firearm deaths.</p>
 </section><section class="level2"><h3 id="cdc-homicide-mortality">CDC Homicide Mortality<a class="anchor" aria-label="anchor" href="#cdc-homicide-mortality"></a>
 </h3>
+<p>This dataset could be analyzed in conjunction with the firearm mortality dataset. This could constitute an update to all the examples involving the dslabs::murders dataset, and various approaches to assessment of spatiotemporal patterns in homicide incidence.</p>
 </section><section class="level2"><h3 id="nchs-birth-database">NCHS Birth Database<a class="anchor" aria-label="anchor" href="#nchs-birth-database"></a>
 </h3>
-<p>See the package <a href="https://vjcitn.github.io/nchsNatality" class="external-link">in development</a></p>
+<p>See the package <a href="https://vjcitn.github.io/nchsNatality" class="external-link">in development</a>. Based on this resource, you would be able to examine, within data on one year’s events in the USA</p>
+<ul>
+<li>relations between smoking history and birth outcomes</li>
+<li>relationships between pre-existing and gestational diabetes and macrosomia or NICU admission risk</li>
+<li>connection between hypertension and preterm delivery</li>
+<li>variation in prenatal care patterns in association with outcomes and covariates</li>
+</ul>
+<p>This project also includes an opportunity to investigate data engineering and use practices with modern online-analytical processing (OLAP) frameworks. If you are interested in fleshing out project components in this area, contact the instructor.</p>
 </section><section class="level2"><h3 id="nhanes">NHANES<a class="anchor" aria-label="anchor" href="#nhanes"></a>
 </h3>
 <p>The options here are from 2025, but the product is not a set of written documents but a working web site. The content for this dataset can address any of these options:</p>

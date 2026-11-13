@@ -78,7 +78,17 @@ event counts, and compare to observed values, for
 
 ## CDC Firearm Mortality and RAND Gun Legislation Database
 
+We have worked with the RAND database in an in-class project -- students were
+assigned states and contributed to the quarto document at https://github.com/vjcitn/gunleg.
+Projects using this database should investigate methods of summarizing changes in
+legislation over time and evaluating hypotheses on the effect of legislative
+actions on risk of firearm deaths.
+
 ## CDC Homicide Mortality
+
+This dataset could be analyzed in conjunction with the firearm mortality dataset.
+This could constitute an update to all the examples involving the dslabs::murders dataset,
+and various approaches to assessment of spatiotemporal patterns in homicide incidence.
 
 ## NCHS Birth Database
 
@@ -89,6 +99,10 @@ resource, you would be able to examine, within data on one year's events in the 
 - relationships between pre-existing and gestational diabetes and macrosomia or NICU admission risk
 - connection between hypertension and preterm delivery
 - variation in prenatal care patterns in association with outcomes and covariates
+
+This project also includes an opportunity to investigate data engineering and use
+practices with modern online-analytical processing (OLAP) frameworks.  If you are interested
+in fleshing out project components in this area, contact the instructor.
   
 
 ## NHANES

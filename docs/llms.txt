@@ -13,7 +13,8 @@ available datasets
 Please see [project suggestion
 text](https://vjcitn.github.io/bst260project-template/articles/stubs.html)
 for some suggestions of how you might proceed with project work on
-selected datasets.
+selected datasets. More content will be added to this page in the near
+future.
 
 # Package index
 

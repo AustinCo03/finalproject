@@ -83,8 +83,8 @@ available in this package as `cdcfiremort`.
     data(gunleg, package="bst260project")
 
 - **The CDC data on USA births in 2025.** This is an advanced data
-  engineering project. See <https://github.com/vjcitn/nchsNatality> for
-  information
+  engineering plus analysis project. See
+  <https://github.com/vjcitn/nchsNatality> for information
 
 For ideas about project activities, see the “stubs” vignette in this
 package.

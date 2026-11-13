@@ -25,6 +25,28 @@ Once you have forked the bst260project-template, you must
 - change the DESCRIPTION file to reflect facts about your GitHub
   identity and site URL
 
+## General principles
+
+- You must write a project_plan.qmd that includes
+
+  - A one-sentence research question, naming one exposure (or a small
+    cluster of related exposures) and one outcome. “How does maternal
+    smoking relate to birth weight?” for example
+
+  - Specification of unit of analysis and population.
+
+  - Definition of exposure variable(s) and how you’ll code them,
+    including how you’ll handle missing responses
+
+  - Specification of outcome variable and whether it’s continuous or
+    categorical
+
+  - Specification of confounders you’ll adjust for, chosen from
+    subject-matter reasoning before looking at the data
+
+- Your project text will occupy the README.md of your package repository
+  and quarto vignette documents.
+
 ## Examples
 
 In this section a few suggestions are made concerning directions that
@@ -56,16 +78,42 @@ There are many avenues to explore.
     compare to observed values, for
     - different types of outbreaks in different regions
     - types of outcomes in different decades
-  - Try your hand and making statistical maps of event locations using
+  - Try your hand at making statistical maps of event locations using
     the leaflet package
 
 ### CDC Firearm Mortality and RAND Gun Legislation Database
 
+We have worked with the RAND database in an in-class project – students
+were assigned states and contributed to the quarto document at
+https://github.com/vjcitn/gunleg. Projects using this database should
+investigate methods of summarizing changes in legislation over time and
+evaluating hypotheses on the effect of legislative actions on risk of
+firearm deaths.
+
 ### CDC Homicide Mortality
+
+This dataset could be analyzed in conjunction with the firearm mortality
+dataset. This could constitute an update to all the examples involving
+the dslabs::murders dataset, and various approaches to assessment of
+spatiotemporal patterns in homicide incidence.
 
 ### NCHS Birth Database
 
-See the package [in development](https://vjcitn.github.io/nchsNatality)
+See the package [in development](https://vjcitn.github.io/nchsNatality).
+Based on this resource, you would be able to examine, within data on one
+year’s events in the USA
+
+- relations between smoking history and birth outcomes
+- relationships between pre-existing and gestational diabetes and
+  macrosomia or NICU admission risk
+- connection between hypertension and preterm delivery
+- variation in prenatal care patterns in association with outcomes and
+  covariates
+
+This project also includes an opportunity to investigate data
+engineering and use practices with modern online-analytical processing
+(OLAP) frameworks. If you are interested in fleshing out project
+components in this area, contact the instructor.
 
 ### NHANES
 
