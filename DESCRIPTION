@@ -1,5 +1,5 @@
 Package: finalproject
-Title: project code and narrative
+Title: Austin Cortes bst260 final project tbd
 Version: 0.0.2
 Authors@R:
     person(given = "Austin",
@@ -7,8 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "austincortes@hsph.harvard.edu",
            comment = c(ORCID = "0000-0002-1825-0097"))
-Description: provide text on what your project emphasizes and 
-	accomplishes in three or more complete sentences.
+Description: final project for bst 260, specifics still to be determined.
 Depends: R (>= 4.5.0)
 Suggests: knitr, testthat, rmarkdown, pkgdown
 License: Artistic-2.0
