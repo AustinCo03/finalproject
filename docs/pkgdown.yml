@@ -1,10 +1,10 @@
-pandoc: 3.8.3
+pandoc: '3.14'
 pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   instructions: instructions.html
   stubs: stubs.html
-last_built: 2026-11-13T10:17Z
+last_built: 2026-11-13T14:09Z
 urls:
-  reference: https://github.com/vjcitn/bst260project-template/reference
-  article: https://github.com/vjcitn/bst260project-template/articles
+  reference: https://github.com/AustinCo03/finalproject/reference
+  article: https://github.com/AustinCo03/finalproject/articles

@@ -3,6 +3,6 @@
 ### All vignettes
 
 - [Instructions for BST260 projects,
-  2026](https://github.com/vjcitn/bst260project-template/articles/instructions.md):
+  2026](https://github.com/AustinCo03/finalproject/articles/instructions.md):
 - [Stubs for BST260 projects,
-  2026](https://github.com/vjcitn/bst260project-template/articles/stubs.md):
+  2026](https://github.com/AustinCo03/finalproject/articles/stubs.md):
