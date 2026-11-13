@@ -32,6 +32,9 @@
   [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html)
 - Visit `https://[username].github.io/finalproject` to verify that your
   GitHub pages site is live.
+- Install your new package into your version of R:
+  `devtools::install_github("[yourGHusername]/finalproject")`
+  - verify that `data("waterborne", package="finalproject")` succeeds
 
 ### Proposals, accomplish by Nov 18 2026
 
@@ -62,7 +65,7 @@
 
 &nbsp;
 
-    data(waterborne, package="bst260project") # once package is installed
+    data(waterborne, package="finalproject") # once package is installed
 
 - **The CDC data on homicides** that we explored in [problem set
   3](https://vjcitn.github.io/2026vjc/psets2026/pset-03-various.html).
@@ -70,7 +73,7 @@
 
 &nbsp;
 
-    data(cdcmurd, package="bst260project")
+    data(cdcmurd, package="finalproject")
 
 In addition to this dataset, another on firearm-related mortality is
 available in this package as `cdcfiremort`.
@@ -80,7 +83,7 @@ available in this package as `cdcfiremort`.
 
 &nbsp;
 
-    data(gunleg, package="bst260project")
+    data(gunleg, package="finalproject")
 
 - **The CDC data on USA births in 2025.** This is an advanced data
   engineering plus analysis project. See
