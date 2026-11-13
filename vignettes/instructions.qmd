@@ -29,6 +29,8 @@ the main branch and `/docs` folder for page management
 - Install `pkgdown` package in your R
 - In the finalproject folder, run `pkgdown::build_site()`
 - Visit `https://[username].github.io/finalproject` to verify that your GitHub pages site is live.
+- Install your new package into your version of R: `devtools::install_github("[yourGHusername]/finalproject")`
+    - verify that `data("waterborne", package="finalproject")` succeeds
     
 
 ## Proposals, accomplish by Nov 18 2026
@@ -54,12 +56,12 @@ datasets* encountered in the class, or approved by instructor if you are introdu
 - **The NHANES or NHANESraw data** from the NHANES package
 - **The CDC data on waterborne illnesses** discussed in class [here](https://vjcitn.github.io/2026vjc/slides/prob/20-sep23-cards-cdc.html) under "Exploring the US CDC API".  The data are accessible via 
 ```
-data(waterborne, package="bst260project") # once package is installed
+data(waterborne, package="finalproject") # once package is installed
 ```
 - **The CDC data on homicides** that we explored in [problem set 3](https://vjcitn.github.io/2026vjc/psets2026/pset-03-various.html). The data are
 accessible via
 ```
-data(cdcmurd, package="bst260project")
+data(cdcmurd, package="finalproject")
 ```
 In addition to this dataset, another on firearm-related mortality is available in this package as
 `cdcfiremort`.
@@ -67,7 +69,7 @@ In addition to this dataset, another on firearm-related mortality is available i
 - **The RAND corporation data on firearms legislation in the USA.**  The data are accessible
 via
 ```
-data(gunleg, package="bst260project")
+data(gunleg, package="finalproject")
 ```
 - **The CDC data on USA births in 2025.**  This is an advanced data engineering plus
 analysis project.  See
