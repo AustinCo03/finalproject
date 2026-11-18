@@ -1,0 +1,52 @@
+---
+title: "BST 260 Final Project Proposal"
+author: "Austin Cortes"
+format: html
+---
+
+**To:** BST260 Teaching Team, Fall 2026
+
+# Project Proposal
+
+## Overview
+
+## Dataset 1 - CDC data on waterborne illness (waterborne)
+
+```{r}
+# library(finalproject)
+# data("waterborne", package = "finalproject")
+# library(dplyr)
+
+# waterborne_df <- bind_rows(waterborne)
+# View(waterborne_df)
+```
+
+## Dataset 2 - NHANES data
+
+```{r}
+# library(finalproject)
+# View(NHANES)
+```
+
+## Proposed Analyses
+
+**waterborne**
+Among reported U.S. foodborne disease outbreaks with an identified food category, how does IFSAC food category relate to the probability of having a confirmed etiology?
+
+**NHANES**
+Among U.S. adult men, how are serum testosterone concentrations and physical activity associated with the odds of self-reported diabetes, after accounting for age, BMI, and other relevant characteristics?
+
+## Expected Challenges and Limitations
+
+**waterborne**
+To have an ifsac_category, investigators would need information on the food involved. Outbreaks with less conclusive investigations may lack both an identified food category and a confirmed etiology.
+
+If we restrict analysis to outbreaks with known food categories, we analyze a selected subset of all foodborne outbreaks. This could influence the relationships observed.
+
+Confounding: Calendar year, state, and outbreak size could be associated with both food categorization and the likelihood of laboratory confirmation.
+
+Etiology status: Some outbreaks involve multiple agents or unknown etiologies. 
+
+**NHANES**
+Several limitations are anticipated in this analysis. The cross-sectional nature of NHANES prevents establishing temporal relationships between testosterone concentrations, physical activity, and diabetes status. Second, missing testosterone measurements and other incomplete observations may reduce the effective sample size and statistical power. Additionally, diabetes status and physical activity are self-reported, potentially introducing misclassification and reporting bias. Finally, although the analysis will adjust for relevant characteristics, residual confounding may remain. The use of a resampled NHANES teaching dataset also limits the generalizability of the findings.
+
